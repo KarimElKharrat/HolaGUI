@@ -1,7 +1,7 @@
 package dad.holagui;
 
-import java.awt.event.WindowAdapter;
-import java.awt.event.WindowEvent;
+//import java.awt.event.WindowAdapter;
+//import java.awt.event.WindowEvent;
 
 import javax.swing.JButton;
 import javax.swing.JFrame;
@@ -26,7 +26,7 @@ public class HolaMundoSwing {
 //		hacer un lambda con mas de 1 argumento: 		
 		saludarButton.addActionListener(e -> {
 			System.out.println("hola");
-			saludarLabel.setText("¡Hola mundo!");
+			saludarLabel.setText("ï¿½Hola mundo!");
 		});
 		
 		
